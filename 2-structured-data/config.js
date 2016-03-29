@@ -25,7 +25,7 @@ var getConfig = module.exports = function () {
 
     // This is the id of your project in the Google Developers Console.
     gcloud: {
-      projectId: process.env.GCLOUD_PROJECT || 'your-project-id'
+      projectId: process.env.GCLOUD_PROJECT || 'struct-data'
     },
 
     mysql: {
