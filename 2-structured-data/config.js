@@ -29,9 +29,9 @@ var getConfig = module.exports = function () {
     },
 
     mysql: {
-      user: process.env.MYSQL_USER || 'your-mysql-user',
-      password: process.env.MYSQL_PASSWORD || 'your-mysql-password',
-      host: process.env.MYSQL_HOST || 'your-mysql-host'
+      user: process.env.MYSQL_USER || 'appuser',
+      password: process.env.MYSQL_PASSWORD || 'abc123',
+      host: process.env.MYSQL_HOST || '173.194.80.64'
     },
 
     mongodb: {
